@@ -6,7 +6,7 @@ pipeline {
     }
     environment { 
         AWS_REGION = 'us-east-1'
-        ECRREGISTRY = '735972722491.dkr.ecr.us-west-2.amazonaws.com' 
+        ECRREGISTRY = '735972722491.dkr.ecr.us-east-1.amazonaws.com' 
         IMAGENAME = 'haplet-registory'
         IMAGE_TAG = 'latest'
         ECS_CLUSTER = 'myapp-cluster'
